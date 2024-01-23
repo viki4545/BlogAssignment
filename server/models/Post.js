@@ -1,7 +1,7 @@
 // models/post.js
 module.exports = (sequelize, DataTypes) => {
     const Post = sequelize.define('Post', {
-      title: DataTypes.STRING,
+      title: DataTypes.TEXT,
       content: DataTypes.TEXT,
     });
   
